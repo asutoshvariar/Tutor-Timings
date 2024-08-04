@@ -28,7 +28,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/media', (req, res) => {
-    res.sendFile(path.join(__dirname, '../public/media'));
+    res.sendFile(path.join(__dirname, '../public/'));
 });
 
 app.listen(port, () => console.log(`Testplot is listening on port ${port}.`));
