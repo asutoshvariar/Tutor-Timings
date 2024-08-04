@@ -6,9 +6,5 @@
         "dest": "api/index.js"
       }
     ],
-    "functions": {
-      "api/index.js": {
-        "maxDuration": 30
-      }
-    }
+    "installCommand": "./install.sh"
   }
