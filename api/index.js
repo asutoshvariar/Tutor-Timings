@@ -24,11 +24,11 @@ nodePandoc(src, args, callback);
 app.use(express.static(path.join(__dirname, '/')));
 
 app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'public/sample4.html'));
+    res.sendFile(path.join(__dirname, '../public/sample4.html'));
 });
 
 app.get('/media', (req, res) => {
-    res.sendFile(path.join(__dirname, 'sample4.html'));
+    res.sendFile(path.join(__dirname, '../public/media'));
 });
 
 app.listen(port, () => console.log(`Testplot is listening on port ${port}.`));
